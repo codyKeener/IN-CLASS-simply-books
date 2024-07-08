@@ -1,7 +1,9 @@
+import AuthorForm from '../../components/forms/AuthorForm';
+
 function NewAuthor() {
   return (
     <>
-      <h1>Add a new author</h1>
+      <AuthorForm />
     </>
   );
 }
